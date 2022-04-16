@@ -1,0 +1,254 @@
+{
+  "tests": [
+    {
+      "name": "In-Order Sliding Sum",
+      "setup": "",
+      "run": "./gradlew test --tests '*simpleSlidingSumInOrder'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "In-Order Tumbling Sum",
+      "setup": "",
+      "run": "./gradlew test --tests '*simpleTumblingSumInOrder'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "In-Order Tumbling Average",
+      "setup": "",
+      "run": "./gradlew test --tests '*simpleTumblingAvgInOrder'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "In Order Tumbling Median",
+      "setup": "",
+      "run": "./gradlew test --tests '*simpleTumblingMedianInOrder'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "In Order Session Sum",
+      "setup": "",
+      "run": "./gradlew test --tests '*simpleSessionSumInOrder'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "In Order Count Sum",
+      "setup": "",
+      "run": "./gradlew test --tests '*simpleCountSumInOrder'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Out of order tumbling sum",
+      "setup": "",
+      "run": "./gradlew test --tests '*simpleTumblingSumOutOfOrder'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Out of order sliding sum",
+      "setup": "",
+      "run": "./gradlew test -i --tests '*simpleSlidingSumOutOfOrder'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Out of order session sum",
+      "setup": "",
+      "run": "./gradlew test --tests '*simpleSessionSumOutOfOrder'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Out of order count sum",
+      "setup": "",
+      "run": "./gradlew test --tests '*simpleCountSumOutOfOrder'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Tumbling Window Out of Order",
+      "setup": "",
+      "run": "./gradlew test -i --tests '*tumblingWindow'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Session Window Out of Order",
+      "setup": "",
+      "run": "./gradlew test --tests '*sessionWindow'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Sliding Window out of order",
+      "setup": "",
+      "run": "./gradlew test --tests '*slidingWindow'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Count Window Out of Order",
+      "setup": "",
+      "run": "./gradlew test --tests '*countWindow'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Ignore late tumbling",
+      "setup": "",
+      "run": "./gradlew test --tests '*ignoreLateTumblingEvent'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Ignore late sliding",
+      "setup": "",
+      "run": "./gradlew test --tests '*ignoreLateSlidingEvent'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Ignore late session",
+      "setup": "",
+      "run": "./gradlew test --tests '*ignoreLateSessionEvent'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Ignore late count",
+      "setup": "",
+      "run": "./gradlew test --tests '*ignoreLateCountEvent'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Empty Tumbling Window",
+      "setup": "",
+      "run": "./gradlew test --tests '*emptyTumblingWindow'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Empty Sliding Window",
+      "setup": "",
+      "run": "./gradlew test --tests '*emptySlidingWindow'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Create Previous Window",
+      "setup": "",
+      "run": "./gradlew test --tests '*createPreviousWindow'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Many Sliding Windows",
+      "setup": "",
+      "run": "./gradlew test --tests '*manySlidingWindows'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Session Window Merge",
+      "setup": "",
+      "run": "./gradlew test --tests '*sessionWindowMerge'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Window Bounds",
+      "setup": "",
+      "run": "./gradlew test --tests '*windowBounds'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    },
+    {
+      "name": "Count Window Cascade",
+      "setup": "",
+      "run": "./gradlew test --tests '*countWindowCascade'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    }
+  ]
+}

@@ -1,1 +1,1 @@
-# windowing
+# window-operator-exercise
